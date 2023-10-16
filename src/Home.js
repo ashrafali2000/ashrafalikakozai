@@ -5,17 +5,17 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import './Home.css';
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Home', href: '#' },
+  { name: 'About', href: '#' },
+  { name: 'Contact', href: '#' },
+  { name: 'Projects', href: '#' },
 ]
 
 
 function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
-    <div className="Home bg-white">
+    <div className="Home bg-orange-100">
        <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
