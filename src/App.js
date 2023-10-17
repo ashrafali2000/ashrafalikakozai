@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Layout></Layout>}>
+          
           <Route index element={<Home></Home>} />
         </Route>
       </Routes>
