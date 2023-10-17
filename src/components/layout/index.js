@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Outlet } from 'react-router-dom'
 
 
 const navigation = [
@@ -14,6 +15,7 @@ export default function Layout() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
+      <div>
         <header className="absolute inset-x-0  top-0 z-50 ">
         <nav className="flex items-center justify-between text-gray-200 bg-slate-800 p-5 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
@@ -96,5 +98,7 @@ export default function Layout() {
           </Dialog.Panel>
         </Dialog>
       </header>
+      <Outlet></Outlet>
+      </div>
 )
 }
