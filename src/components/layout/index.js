@@ -18,15 +18,15 @@ export default function Layout() {
       <div>
         <header className="absolute inset-x-0  top-0 z-50 ">
         <nav className="flex items-center justify-between text-gray-200 bg-slate-800 p-5 lg:px-8" aria-label="Global">
-          <div className="flex lg:flex-1">
+          <div className="flex lg:flex-1 items-center ">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Twemoji_1f600.svg/1200px-Twemoji_1f600.svg.png"
                 alt=""
               />
-            </a>
+            </a><span className='text-md font-semibold leading-6 ' >Ashraf</span>
           </div>
           <div className="flex lg:hidden">
             <button
@@ -59,10 +59,10 @@ export default function Layout() {
                 <span className="sr-only">Your Company</span>
                 <img
                   className="h-8 w-auto"
-                  src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Twemoji_1f600.svg/1200px-Twemoji_1f600.svg.png"
                   alt=""
                   />
-              </a>
+              </a><span  className='mr-56 text-sm font-semibold text-white'>Ashraf</span>
               <button
                 type="button"
                 className="-m-2.5 rounded-md p-2.5 text-white"
