@@ -5,11 +5,13 @@ import {
   FaInstagram,
   FaPinterestP,
 } from "react-icons/fa";
+import AOS from "aos"
 import { FaArrowRightLong } from "react-icons/fa6";
 import { BsMeta, BsLinkedin } from "react-icons/bs";
 import ashrafimg from "../../../src/components/images/Ashrafali.png";
 import slack from "../../../src/components/images/slack.png";
 export default function Home() {
+  AOS.init();
   return (
     <div>
       <div className="flex flex-wrap p-5 pt-20 bg-slate-800 text-gray-600 items-center justify-evenly">
@@ -96,32 +98,32 @@ export default function Home() {
       {/* Description Section */}
       <div className="w-full flex flex-wrap justify-between h-screen pt-40 p-14 z-20 bg-gray-900 absolute">
         {/* Client Review */}
-        <div className="flex flex-col gap-8">
-          <h1 className="text-white text-[34px] w-[300px] font-bold">
+        <div className="flex flex-col gap-14">
+          <h1 className="text-white text-[40px] w-[350px] font-bold">
             What Can I Do For Your Needs
           </h1>
-          <p className="text-gray-400 text-[19px] w-[400px]">
+          <p className="text-gray-400 text-[24px] w-[400px]">
             It is easier to entrust the work to the experts because they are
             able to provide the best result with reliable quality
           </p>
 
           {/* Rating Section */}
-          <div className="flex flex-wrap w-[400px] gap-14">
-            <div className="w-[160px] h-[50px] flex flex-col gap-4">
+          <div className="flex flex-wrap w-[410px] gap-14">
+            <div className="w-[170px] h-[50px] flex flex-col gap-4">
               <h2 className="text-yellow-300 font-bold text-[30px]">250+</h2>
-              <p className="text-gray-400 text-[17px]">Projects Completed</p>
+              <p className="text-gray-400 text-[19px]">Projects Completed</p>
             </div>
-            <div className="w-[160px] h-[50px] flex flex-col gap-4">
+            <div className="w-[175px] h-[50px] flex flex-col gap-4">
               <h2 className="text-yellow-300 font-bold text-[30px]">100+</h2>
-              <p className="text-gray-400 text-[17px]">Community Network</p>
+              <p className="text-gray-400 text-[19px]">Community Network</p>
             </div>
-            <div className="w-[160px] h-[50px] flex flex-col gap-4">
+            <div className="w-[170px] h-[50px] flex flex-col gap-4">
               <h2 className="text-yellow-300 font-bold text-[30px]">30+</h2>
-              <p className="text-gray-400 text-[17px]">Contact Remote</p>
+              <p className="text-gray-400 text-[19px]">Contact Remote</p>
             </div>
-            <div className="w-[160px] h-[50px] flex flex-col gap-4">
+            <div className="w-[170px] h-[50px] flex flex-col gap-4">
               <h2 className="text-yellow-300 font-bold text-[30px]">10+</h2>
-              <p className="text-gray-400 text-[17px]">Year Experience</p>
+              <p className="text-gray-400 text-[19px]">Year Experience</p>
             </div>
           </div>
         </div>
@@ -136,7 +138,7 @@ export default function Home() {
               />
               <div className="flex flex-col">
                 <p className="text-white font-bold text-[20px] ">UI/UX</p>
-                <p className="text-white ">217 Projects</p>
+                <p className="text-gray-400 font-semibold  ">217 Projects</p>
               </div>
             </div>
             <a href="#">
@@ -156,7 +158,7 @@ export default function Home() {
                 <p className="text-white font-bold text-[20px] ">
                   Front End Develop
                 </p>
-                <p className="text-white ">217 Projects</p>
+                <p className="text-gray-400 font-semibold   ">217 Projects</p>
               </div>
             </div>
             <a href="#">
@@ -174,7 +176,7 @@ export default function Home() {
                 <p className="text-white font-bold text-[20px] ">
                   Mobile App Develop
                 </p>
-                <p className="text-white ">217 Projects</p>
+                <p className="text-gray-400 font-semibold ">217 Projects</p>
               </div>
             </div>
             <a href="#">
@@ -183,7 +185,36 @@ export default function Home() {
           </div>
           <hr className="text-white" />
         </div>
+
+      {/* Details Section */}
+      <div  data-aos="fade-up" className="flex  flex-wrap gap-10 items-center" >
+        <div className="w-[300px] gap-4 p-10 h-[500] bg-gray-700 flex flex-col">
+          <div className="w-[100px] flex justify-center items-center h-[100px] bg-gray-900 rounded-full">
+            <img src="https://www.user.com.sg/wp-content/uploads/2021/05/Minimalist-Design-Maximum-Experience-A-Trending-UX-Challenge.jpg" className="w-[90px] h-[60px] rounded-full"/>
+          </div>
+          <h2 className="text-white font-semibold text-[20px]">UI/UX Design</h2>
+          <p className="text-gray-400 text-[16px]">Create a beautiful and usefull ui display for ease of use of the application for users</p>
+       <a href="#" className="text-yellow-400 font-semibold">See Details...</a>
+        </div>
+        <div className="w-[300px] p-10 gap-4 h-[500] bg-gray-700 flex flex-col">
+          <div className="w-[100px] flex justify-center items-center h-[100px] bg-gray-900 rounded-full">
+            <img src="https://www.aceinfoway.com/blog/wp-content/uploads/2020/07/front-end-developer.jpg" className="w-[90px] h-[60px] rounded-full"/>
+          </div>
+          <h2 className="text-white font-semibold text-[20px]">Web Programming</h2>
+          <p className="text-gray-400 text-[16px]">Build a quality website with the best technology and optimization on search engine</p>
+       <a href="#" className="text-yellow-400 font-semibold">See Details...</a>
+        </div>
+        <div className=" w-[300px] p-10 gap-4  h-[500] bg-gray-700 flex flex-col">
+          <div className="w-[100px] flex justify-center items-center h-[100px] bg-gray-900 rounded-full">
+            <img src="https://assets.skyfilabs.com/images/blog/how-to-develop-mobile-application.webp" className="w-[90px] h-[60px] rounded-full"/>
+          </div>
+          <h2 className="text-white font-semibold text-[20px]">Mobile Development</h2>
+          <p className="text-gray-400 text-[16px]">Create an app from your own business for more professional business performanc</p>
+       <a href="#" className="text-yellow-400 font-semibold">See Details...</a>
+        </div>
       </div>
+      </div>
+
     </div>
   );
 }
