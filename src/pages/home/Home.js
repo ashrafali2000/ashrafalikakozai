@@ -65,7 +65,7 @@ export default function Home() {
       </div>
 
       {/* Social Media Links Container */}
-      <div className="flex justify-center ">
+      <div className="flex justify-center " data-aos="fade-up">
         <div className="flex justify-evenly flex-wrap gap-4 items-center bg-gray-600 w-[900px] z-50 h-[150px] -mt-10 ">
           <div className="w-[170px] h-[75px] text-[35px] font-bold text-blue-600 flex justify-center gap-2 items-center  bg-gray-800 hover:bg-gray-900 shadow-2xl hover:shadow-white">
             <BsMeta></BsMeta>
