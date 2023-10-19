@@ -5,7 +5,7 @@ import {
   FaInstagram,
   FaPinterestP,
 } from "react-icons/fa";
-import AOS from "aos"
+import AOS from "aos";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { BsMeta, BsLinkedin } from "react-icons/bs";
 import ashrafimg from "../../../src/components/images/Ashrafali.png";
@@ -186,35 +186,64 @@ export default function Home() {
           <hr className="text-white" />
         </div>
 
-      {/* Details Section */}
-      <div  data-aos="fade-up" className="flex  flex-wrap gap-10 items-center" >
-        <div className="w-[300px] gap-4 p-10 h-[500] bg-gray-700 flex flex-col">
-          <div className="w-[100px] flex justify-center items-center h-[100px] bg-gray-900 rounded-full">
-            <img src="https://www.user.com.sg/wp-content/uploads/2021/05/Minimalist-Design-Maximum-Experience-A-Trending-UX-Challenge.jpg" className="w-[90px] h-[60px] rounded-full"/>
+        {/* Details Section */}
+        <div data-aos="fade-up" className="flex  flex-wrap gap-10 items-center">
+          <div className="w-[300px] gap-4 p-10 h-[500] bg-gray-700 flex flex-col">
+            <div className="w-[100px] flex justify-center items-center h-[100px] bg-gray-900 rounded-full">
+              <img
+                src="https://www.user.com.sg/wp-content/uploads/2021/05/Minimalist-Design-Maximum-Experience-A-Trending-UX-Challenge.jpg"
+                className="w-[90px] h-[60px] rounded-full"
+              />
+            </div>
+            <h2 className="text-white font-semibold text-[20px]">
+              UI/UX Design
+            </h2>
+            <p className="text-gray-400 text-[16px]">
+              Create a beautiful and usefull ui display for ease of use of the
+              application for users
+            </p>
+            <a href="#" className="text-yellow-400 font-semibold">
+              See Details...
+            </a>
           </div>
-          <h2 className="text-white font-semibold text-[20px]">UI/UX Design</h2>
-          <p className="text-gray-400 text-[16px]">Create a beautiful and usefull ui display for ease of use of the application for users</p>
-       <a href="#" className="text-yellow-400 font-semibold">See Details...</a>
-        </div>
-        <div className="w-[300px] p-10 gap-4 h-[500] bg-gray-700 flex flex-col">
-          <div className="w-[100px] flex justify-center items-center h-[100px] bg-gray-900 rounded-full">
-            <img src="https://www.aceinfoway.com/blog/wp-content/uploads/2020/07/front-end-developer.jpg" className="w-[90px] h-[60px] rounded-full"/>
+          <div className="w-[300px] p-10 gap-4 h-[500] bg-gray-700 flex flex-col">
+            <div className="w-[100px] flex justify-center items-center h-[100px] bg-gray-900 rounded-full">
+              <img
+                src="https://www.aceinfoway.com/blog/wp-content/uploads/2020/07/front-end-developer.jpg"
+                className="w-[90px] h-[60px] rounded-full"
+              />
+            </div>
+            <h2 className="text-white font-semibold text-[20px]">
+              Web Programming
+            </h2>
+            <p className="text-gray-400 text-[16px]">
+              Build a quality website with the best technology and optimization
+              on search engine
+            </p>
+            <a href="#" className="text-yellow-400 font-semibold">
+              See Details...
+            </a>
           </div>
-          <h2 className="text-white font-semibold text-[20px]">Web Programming</h2>
-          <p className="text-gray-400 text-[16px]">Build a quality website with the best technology and optimization on search engine</p>
-       <a href="#" className="text-yellow-400 font-semibold">See Details...</a>
-        </div>
-        <div className=" w-[300px] p-10 gap-4  h-[500] bg-gray-700 flex flex-col">
-          <div className="w-[100px] flex justify-center items-center h-[100px] bg-gray-900 rounded-full">
-            <img src="https://assets.skyfilabs.com/images/blog/how-to-develop-mobile-application.webp" className="w-[90px] h-[60px] rounded-full"/>
+          <div className=" w-[300px] p-10 gap-4  h-[500] bg-gray-700 flex flex-col">
+            <div className="w-[100px] flex justify-center items-center h-[100px] bg-gray-900 rounded-full">
+              <img
+                src="https://assets.skyfilabs.com/images/blog/how-to-develop-mobile-application.webp"
+                className="w-[90px] h-[60px] rounded-full"
+              />
+            </div>
+            <h2 className="text-white font-semibold text-[20px]">
+              Mobile Development
+            </h2>
+            <p className="text-gray-400 text-[16px]">
+              Create an app from your own business for more professional
+              business performanc
+            </p>
+            <a href="#" className="text-yellow-400 font-semibold">
+              See Details...
+            </a>
           </div>
-          <h2 className="text-white font-semibold text-[20px]">Mobile Development</h2>
-          <p className="text-gray-400 text-[16px]">Create an app from your own business for more professional business performanc</p>
-       <a href="#" className="text-yellow-400 font-semibold">See Details...</a>
         </div>
       </div>
-      </div>
-
     </div>
   );
 }
