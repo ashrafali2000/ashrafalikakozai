@@ -136,7 +136,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-between items-center">
             <div className="md:flex md:justify-between md:items-center md:gap-4 lg:gap-8">
               <img
-                src="https://www.user.com.sg/wp-content/uploads/2021/05/Minimalist-Design-Maximum-Experience-A-Trending-UX-Challenge.jpg"
+                src="/ui.jpg"
                 className="w-[190px] h-[120px] md:w-[280px] md:h-[180px]"
               />
               <div className="flex flex-col">
@@ -161,7 +161,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-between items-center">
             <div className="md:flex md:justify-between md:items-center md:gap-4 lg:gap-8">
               <img
-                src="https://www.aceinfoway.com/blog/wp-content/uploads/2020/07/front-end-developer.jpg"
+                src="/frontend.jpg"
                 className="w-[190px] h-[120px] md:w-[280px] md:h-[180px]"
               />
               <div className="flex flex-col">
@@ -184,7 +184,7 @@ export default function Home() {
           <div className="flex flex-wrap justify-between items-center">
             <div className="md:flex md:justify-between md:items-center md:gap-4 lg:gap-8">
               <img
-                src="https://assets.skyfilabs.com/images/blog/how-to-develop-mobile-application.webp"
+                src="/mobileApp.webp"
                 className="w-[190px] h-[120px] md:w-[280px] md:h-[180px]"
               />
               <div className="flex flex-col">
@@ -210,10 +210,7 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 items-center px-5 bg-black py-8">
         <div className="gap-4 p-10 h-[450px] lg:h-96  bg-gray-700 flex flex-col">
           <div className="group relative transition duration-700 ease-in-out shadow-xl hover:shadow-white w-[100px] p-2 flex justify-center items-center h-[100px] bg-gray-900 rounded-full">
-            <img
-              src="https://www.user.com.sg/wp-content/uploads/2021/05/Minimalist-Design-Maximum-Experience-A-Trending-UX-Challenge.jpg"
-              className="w-full h-full rounded-full"
-            />
+            <img src="/ui.jpg" className="w-full h-full rounded-full" />
           </div>
           <h2 className="text-white font-semibold text-[20px]">UI/UX Design</h2>
           <p className="text-gray-400 text-[16px]">
@@ -233,7 +230,7 @@ export default function Home() {
         <div className="p-10 gap-4 h-[450px] lg:h-96 bg-gray-700 flex flex-col">
           <div className="group relative transition duration-700 ease-in-out shadow-xl hover:shadow-white  w-[100px] p-2 flex justify-center items-center h-[100px] bg-gray-900 rounded-full">
             <img
-              src="https://www.aceinfoway.com/blog/wp-content/uploads/2020/07/front-end-developer.jpg"
+              src="/frontend.jpg"
               className="relative w-full h-full rounded-full"
             />
           </div>
@@ -256,10 +253,7 @@ export default function Home() {
         </div>
         <div className="p-10 gap-4 h-[450px] lg:h-96 bg-gray-700 flex flex-col">
           <div className="group relative transition duration-700 ease-in-out shadow-xl hover:shadow-white w-[100px] p-2 flex justify-center items-center h-[100px] bg-gray-900 rounded-full">
-            <img
-              src="https://assets.skyfilabs.com/images/blog/how-to-develop-mobile-application.webp"
-              className="w-full h-full rounded-full"
-            />
+            <img src="/mobileApp.webp" className="w-full h-full rounded-full" />
           </div>
           <h2 className="text-white font-semibold text-[20px]">
             Mobile Development
