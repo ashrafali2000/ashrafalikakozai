@@ -1,18 +1,15 @@
 import Image from "next/image";
-import { SiWebmoney } from "react-icons/si";
-import { FaUserTie } from "react-icons/fa";
-import { FaUserCheck } from "react-icons/fa6";
-import { IoSchoolSharp } from "react-icons/io5";
-import { MdOutlineWebhook } from "react-icons/md";
-import { FaLaptopCode } from "react-icons/fa6";
 import { DiCodeigniter } from "react-icons/di";
-import { SiJirasoftware } from "react-icons/si";
 import {
   FaFacebookF,
   FaInstagram,
   FaPinterestP,
-  FaTwitter,
+  FaTwitter, FaUserTie
 } from "react-icons/fa";
+import { FaLaptopCode, FaUserCheck } from "react-icons/fa6";
+import { IoSchoolSharp } from "react-icons/io5";
+import { MdOutlineWebhook } from "react-icons/md";
+import { SiJirasoftware, SiWebmoney } from "react-icons/si";
 export default function AboutSection() {
   return (
     <div className="bg-slate-800 py-2 md:py-12 p-5 lg:px-8">
@@ -27,11 +24,11 @@ export default function AboutSection() {
         <div className="flex flex-col gap-8">
           <div className="bg-gray-600 flex justify-center items-center rounded-full w-11/12 md:h-96">
             <Image
-              src={"/myimg.png"}
+              src={"/my5.png"}
               alt="myimg"
               width={800}
               height={800}
-              className="w-60 h-60 md:w-80 md:h-80"
+              className="w-80 h-80 md:h-[400px] md:w-[440px] lg:h-[500px]"
             />
           </div>
           <div className="flex flex-wrap justify-center gap-4 xl:gap-6">

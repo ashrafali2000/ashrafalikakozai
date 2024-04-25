@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { BsLinkedin, BsMeta } from "react-icons/bs";
 import {
@@ -30,11 +29,11 @@ export default function Home() {
           </p>
         </div>
         {/* Image Container */}
-        <div className="xl:-ml-8 bg-gray-700 lg:col-span-3 xl:col-span-3 flex justify-center items-center h-72 md:h-96 w-full xl:w-full lg:h-[500px] xl:h-[600px] rounded-full ">
+        <div className="xl:-ml-8 -mt-10 bg-gray-700 lg:col-span-3 xl:col-span-3 flex justify-center items-center h-72 md:h-96 w-full xl:w-full lg:h-[500px] xl:h-[600px] rounded-full ">
           <img
-            src="myimg.png"
+            src="my5.png"
             alt=""
-            className="lg:h-[400px] lg:w-[400px] xl:h-[450px] xl:w-[450px] md:h-[300px] md:w-[300px] w-[230px] h-[230px] "
+            className="lg:h-[500px] lg:w-[500px] xl:h-[750px] xl:w-[600px] md:h-[400px] md:w-[500px] w-full h-[330px] "
           />
         </div>
 
